@@ -4,7 +4,7 @@ import { FaArrowRight, FaChartLine } from "react-icons/fa";
 import Services from "../Services/Services";
 import AboutUs from "../AboutUs/AboutUs";
 import TeamSection from "../TeamSections/TeamSection";
-import Blog from "../Blog/blog";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   // Animation variants
