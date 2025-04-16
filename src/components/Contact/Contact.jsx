@@ -46,7 +46,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://financialadvisiorbackend.netlify.app/api/contact",
+        "https://financialadvisiorbackend.onrender.com/api/contact",
         formData
       );
       

@@ -44,7 +44,7 @@ const SignUp = () => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('https://financialadvisiorbackend.netlify.app/api/auth/register', {
+      const response = await axios.post('https://financialadvisiorbackend.onrender.com/api/auth/register', {
         name: formData.name,
         email: formData.email,
         password: formData.password

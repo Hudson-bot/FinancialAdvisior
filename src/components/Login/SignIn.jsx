@@ -25,7 +25,7 @@
 //     }
 
 //     try {
-//       const response = await axios.post('https://financialadvisiorbackend.netlify.app/api/auth/login', {
+//       const response = await axios.post('https://financialadvisiorbackend.onrender.com/api/auth/login', {
 //         email,
 //         password
 //       });
@@ -249,7 +249,7 @@ const SignIn = () => {
     }
 
     try {
-      const response = await axios.post('https://financialadvisiorbackend.netlify.app/api/auth/login', {
+      const response = await axios.post('https://financialadvisiorbackend.onrender.com/api/auth/login', {
         email,
         password
       });

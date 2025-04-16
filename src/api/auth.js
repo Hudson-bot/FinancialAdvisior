@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://financialadvisiorbackend.netlify.app/api/auth',
+  baseURL: 'https://financialadvisiorbackend.onrender.com/api/auth',
 });
 
 // Login user
